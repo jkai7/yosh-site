@@ -54,3 +54,11 @@
 .sub {
     font-size: 25px
 }
+
+.section {
+    padding: 100px 0
+}
+
+.profilePhoto {
+    max-width: 100%;
+}
