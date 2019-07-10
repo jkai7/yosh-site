@@ -1,3 +1,9 @@
+$(window).on("load", function() {
+    $(".loader .inner").fadeOut(500, function() {
+        $(".loader").fadeOut(750);
+    });
+});
+
 $(document).ready(function(){
 
     $('#slides').superslides({
@@ -14,6 +20,12 @@ $(document).ready(function(){
         showCursor: false
     });
 
+    $("#navigation li a").click(function(e) {
+        e.preventDefault();
+        let targetElement = $(this).attr("href");
+        let targetPosition = $(targetElement).offset().top;
+        $("html, body").animate({ scrollTop: targetPosition - 50}, 1300);
+    });
 
     const nav = $("#navigation");
     const navTop = nav.offset().top;
