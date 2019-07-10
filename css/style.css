@@ -64,7 +64,7 @@
 }
 
 .blu {
-    background-color: #15A8E3;
+    background-color: #15A8E3;   /* #15A8E3, #0077B5 */
     color: #fff
 }
 
@@ -101,4 +101,35 @@
 
 a {
     color: #fff
+}
+
+.vl {
+    border-left: 1px solid #333;
+    height: 200px;
+  }
+
+  #copyright {
+      padding: 20px
+  }
+
+  .envolopeLink {
+      color: #0077B5;
+  }
+
+  .envolopeLink:hover {
+    color: #0077B5;
+}
+
+  .envelope {
+      margin: 20px;
+  }
+
+  i {
+    color: #333
+}
+
+.linkdcon {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px
 }
