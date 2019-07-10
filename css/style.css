@@ -75,7 +75,7 @@
 .logo {
     width: 125px;
     height: 125px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .linkedin {
@@ -136,11 +136,11 @@ a:hover {
 .linkdcon {
     width: 50px;
     height: 50px;
-    margin-top: 50px
+    margin: 40px 0
 }
 
 .addy {
-    margin-top: 50px;
+    margin: 40px 0;
     line-height:200%;
 }
 
@@ -155,4 +155,42 @@ a:hover {
 
 .divide {
     background-color: #15A8E3
+}
+
+#navigation {
+    background-color: #15A8E3;
+    padding: 5px 10px;
+    z-index: 100;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    box-shadow:0px 2px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+#navigation li {
+    padding: 0 10px
+}
+
+.logoBar {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+}
+
+.navbar-brand {
+    padding-left: 5px
+}
+
+.burger {
+    background: url(/images/icons/menu3.png);
+    background-size: 100%;
+}
+
+.navbar-toggler {
+    border: 1px solid #fff
+}
+
+.fixedNav #navigation {
+    position: fixed;
+    top: 0
 }
